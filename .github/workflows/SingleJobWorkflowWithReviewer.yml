@@ -46,4 +46,4 @@ jobs:
       - env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh api repos/meghnasavit/test-deploy/actions/runs/4405098734/jobs/7715557409
+          gh api repos/meghnasavit/test-deploy/actions/jobs/7715557409
